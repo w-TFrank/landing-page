@@ -28,7 +28,7 @@ body {
 }
 
 .left > button {
-    background: rgb(51, 151, 245);
+    background: #3882F6;
     color: white;
     font-weight: 700;
     border: 0;
@@ -63,6 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .heading {
@@ -85,8 +86,35 @@ body {
 .container {
     width: 100px;
     height: 100px;
-    border: 2px solid rgb(51, 151, 245);
+    border: 2px solid #3882F6;
     border-radius: 5px;
 }
 
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E7EB;
+    padding: 50px;
+}
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    width: 450px;
+    font-size: 20px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.speaker{
+    display: flex;
+    justify-content: right;
+    width: 425px;
+    font-weight:bold;
+    font-size: 14px;
+    margin-top: -25px;
+}
