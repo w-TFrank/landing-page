@@ -42,12 +42,14 @@ body {
     display: flex;
     justify-content: space-around;
     margin: -10px;
-    padding: 85px 13%
+    padding: 85px 13%;
+
 }
 
 .left {
     height: 200px;
     width: 400px;
+    min-width: 200px;
 }
 
 .right {
@@ -96,6 +98,7 @@ body {
     align-items: center;
     background: #E5E7EB;
     padding: 50px;
+    margin: -10px
 }
 
 .quote-container {
@@ -123,6 +126,7 @@ body {
     padding: 75px;
     display: flex;
     justify-content: center;
+    padding-bottom: 125px;
 }
 
 .banner {
