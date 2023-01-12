@@ -40,7 +40,7 @@ body {
     background: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: -10px;
     padding: 85px 13%
 }
@@ -117,4 +117,46 @@ body {
     font-weight:bold;
     font-size: 14px;
     margin-top: -25px;
+}
+
+.section-four {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 85%;
+    height: 100px;
+    flex: 1;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.action > h4 {
+    margin: 0;
+}
+
+.action > p {
+    margin: 0;
+}
+
+.sign-up-button > button {
+    background: #3882F6;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
 }
